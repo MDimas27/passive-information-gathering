@@ -82,6 +82,21 @@ if(isset($_COOKIE["login"])){
 ```
 This PHP code snippet suggests that the backend technology is PHP and MySQL.
 
+## 4. Using Dirhunt by Terminal
+Dirhunt is a web tool used to find hidden directories and files on websites
+
+### 4.1 Install dirhunt
+```bash
+sudo pip3 install dirhunt 
+```
+### 4.2 Use dirhunt
+for example, for example, the web target is :
+```bash
+dirhunt http://testphp.vulnweb.com/
+```
+You can search directories or paths that exist on a particular website.
+
+
 ## Conclusion
 Passive information gathering is a valuable technique for collecting information about a target system or organization. However, it is crucial to use it carefully and responsibly. Ensure that your objectives are legitimate and employ non-aggressive or damaging methods.
 
